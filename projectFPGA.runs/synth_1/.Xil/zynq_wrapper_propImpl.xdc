@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/altera/13.1/MSIB/vivado/LEDFanPin/tes1/projectFPGA.srcs/constrs_1/new/tempcontrol.xdc rfile:../../../projectFPGA.srcs/constrs_1/new/tempcontrol.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN C11 [get_ports fan_pin]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports fan_pin]

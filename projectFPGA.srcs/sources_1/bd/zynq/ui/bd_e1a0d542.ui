@@ -1,0 +1,23 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.16629",
+   "Default View_TopLeft":"10,-122",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_led_pin -pg 1 -lvl 3 -x 820 -y 100 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 310 -y 110 -defaultsOSRD
+preplace inst led_fade_blink_0 -pg 1 -lvl 2 -x 700 -y 100 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 20 10 600
+preplace netloc led_fade_blink_0_led_pwm 1 2 1 N 100
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 N 110
+levelinfo -pg 1 0 310 700 820
+pagesize -pg 1 -db -bbox -sgen 0 0 920 290
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"7",
+   "da_clkrst_cnt":"4",
+   "da_zynq_ultra_ps_e_cnt":"2"
+}
